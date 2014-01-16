@@ -1,5 +1,5 @@
 {
-  "name": "version-changelog",
+  "name": "changelog",
   "version": "0.0.1",
   "description": "Git changelog generator",
   "main": "lib/app.js",
