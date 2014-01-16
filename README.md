@@ -1,6 +1,6 @@
 # changelog as a service
 
-The aim: permalink to http://<domain?>/<user>/<project>/<tag>
+The aim: permalink to http://\<domain?>/\<user>/\<project>/\<tag>
 
 eg. /remy/nodemon/1.0.0 shows the commits since the last tag.
 
