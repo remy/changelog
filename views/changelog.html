@@ -1,0 +1,10 @@
+<p>Select a release:
+<select id="versions">
+  {{#each tag}}<option value="{{.}}">{{.}}</option>{{/each}}
+</select></p>
+
+<div id="release">
+  {{#each commit}}
+    {{> commit}}
+  {{/each}}
+</div>

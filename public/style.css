@@ -1,0 +1,91 @@
+* {
+  font-family: 'helvetica neue', arial, helveica;
+  font-weight: 200;
+}
+
+html {
+  background: #efefef;
+  height: 100%;
+}
+
+body {
+  background: white;
+  color: #212121;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: 100%;
+}
+
+body > * {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 48px;
+}
+
+p, label, input, select, option {
+  line-height: 24px;
+  font-size: 18px;
+}
+
+[type=text]:focus:invalid {
+  outline: 5px solid #f00;
+}
+
+[type=text]:focus:valid {
+  outline: 5px solid #0f0;
+}
+
+
+a {
+  color: blue;
+}
+
+em {
+  font-weight: 400;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #efefef;
+  margin: 0;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.footer p {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+  margin: 5px 0;
+  padding: 2px;
+}
+
+li:hover {
+  background: hsl(240, 100%, 97%);
+}
+
+.sha {
+  font-family: monospace;
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+
+.author, .date {
+  font-size: 0.9em;
+}
+
+.date {
+  padding: 0 10px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "version-changelog",
+  "version": "0.0.1",
+  "description": "Git changelog generator",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.4.7",
+    "hbs": "~2.4.0",
+    "rsvp": "~3.0.1",
+    "request": "~2.30.0",
+    "semver": "~2.2.1",
+    "octonode": "~0.4.2"
+  }
+}
